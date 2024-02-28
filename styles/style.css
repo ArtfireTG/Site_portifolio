@@ -71,7 +71,7 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
 }
-.apresentacao__links__navegacao{
+.apresentacao__links__link{
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -111,6 +111,10 @@ body{
     }
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
     }
     
 }
